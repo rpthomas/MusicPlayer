@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="aDb-1f-DTP">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--App Store-->
+        <scene sceneID="Lo6-sA-TSv">
+            <objects>
+                <tableViewController id="ZTH-zz-zd8" customClass="AppStoreTableViewController" customModule="MusiPlayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="121" sectionHeaderHeight="28" sectionFooterHeight="28" id="rkJ-gt-8dK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AppCell" rowHeight="124" id="BVD-L6-LCQ" customClass="AppTableViewCell" customModule="MusiPlayer" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="124"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BVD-L6-LCQ" id="ODP-JP-cg6">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="124"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IzE-p6-zCQ">
+                                            <rect key="frame" x="12" y="16" width="64" height="64"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="64" id="bn7-iY-2E4"/>
+                                                <constraint firstAttribute="width" constant="64" id="dKF-nQ-tVb"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Application Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mw3-qf-m82">
+                                            <rect key="frame" x="84" y="16" width="283" height="20.5"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Application description goes here. It can possibly be very long but we want it to stretch in two lines." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F8O-DG-uKZ">
+                                            <rect key="frame" x="84" y="36.5" width="283" height="54.5"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$1.99" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rn0-xv-Z6n">
+                                            <rect key="frame" x="84" y="93" width="32" height="15"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="IzE-p6-zCQ" firstAttribute="leading" secondItem="ODP-JP-cg6" secondAttribute="leading" constant="12" id="BWM-Ci-d1y"/>
+                                        <constraint firstItem="rn0-xv-Z6n" firstAttribute="leading" secondItem="IzE-p6-zCQ" secondAttribute="trailing" constant="8" id="G3J-NO-3rQ"/>
+                                        <constraint firstItem="mw3-qf-m82" firstAttribute="top" secondItem="ODP-JP-cg6" secondAttribute="top" constant="16" id="MBh-Ao-UMr"/>
+                                        <constraint firstAttribute="trailing" secondItem="F8O-DG-uKZ" secondAttribute="trailing" constant="8" id="O8o-Fy-IJ3"/>
+                                        <constraint firstAttribute="bottom" secondItem="rn0-xv-Z6n" secondAttribute="bottom" constant="16" id="ZAs-IR-oL1"/>
+                                        <constraint firstItem="rn0-xv-Z6n" firstAttribute="top" secondItem="F8O-DG-uKZ" secondAttribute="bottom" constant="2" id="aLm-qD-VPP"/>
+                                        <constraint firstAttribute="trailing" secondItem="mw3-qf-m82" secondAttribute="trailing" constant="8" id="cc9-Bi-6Xq"/>
+                                        <constraint firstItem="IzE-p6-zCQ" firstAttribute="top" secondItem="ODP-JP-cg6" secondAttribute="top" constant="16" id="ej4-iZ-IJ8"/>
+                                        <constraint firstItem="mw3-qf-m82" firstAttribute="leading" secondItem="IzE-p6-zCQ" secondAttribute="trailing" constant="8" id="fBI-a5-gdX"/>
+                                        <constraint firstItem="F8O-DG-uKZ" firstAttribute="top" secondItem="mw3-qf-m82" secondAttribute="bottom" id="n5k-Dk-c0j"/>
+                                        <constraint firstItem="F8O-DG-uKZ" firstAttribute="leading" secondItem="IzE-p6-zCQ" secondAttribute="trailing" constant="8" id="qd2-gC-9lH"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <inset key="separatorInset" minX="84" minY="0.0" maxX="8" maxY="0.0"/>
+                                <connections>
+                                    <outlet property="appDescriptionLabel" destination="F8O-DG-uKZ" id="rWB-lC-I46"/>
+                                    <outlet property="appNameLabel" destination="mw3-qf-m82" id="D29-Hp-rZJ"/>
+                                    <outlet property="artworkImageView" destination="IzE-p6-zCQ" id="P78-Z1-pOQ"/>
+                                    <outlet property="priceLabel" destination="rn0-xv-Z6n" id="zPP-jD-Ujx"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ZTH-zz-zd8" id="Kha-Wr-M3J"/>
+                            <outlet property="delegate" destination="ZTH-zz-zd8" id="Mbi-wk-F9P"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="App Store" id="i4h-wf-wft"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GtL-LS-ls0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-30055" y="61"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ccm-eI-IlD">
+            <objects>
+                <navigationController id="aDb-1f-DTP" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uBl-8c-b5Z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ZTH-zz-zd8" kind="relationship" relationship="rootViewController" id="OAl-eX-cme"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hbA-Fb-wTm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-548" y="76"/>
+        </scene>
+    </scenes>
+</document>
