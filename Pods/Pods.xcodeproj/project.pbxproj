@@ -1,0 +1,867 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02AEED865D2144E99A2ED4AFEFBDD0EB /* URLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933DEC3C886E4A700950AC6D64C6A104 /* URLBuilder.swift */; };
+		13D612E2527CCAFB1EBEABAACE7AEC7D /* Pods-MusiPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 409698AF94D0CB94ADDF22ED16EC0FF0 /* Pods-MusiPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24CA78BF14F23D0317A8B1A917BADDC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3CF4CDBA30FDEFE44484F65ECB765B6A /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F4CD3E4A45868886317ED0CE83A808 /* Session.swift */; };
+		436455B287A50944F60BAB699E02C75D /* SpotifyLoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B380D9BB3B873CD3628E14CED6724DBF /* SpotifyLoginPresenter.swift */; };
+		438690A1756AF59B38ED63C6E319D667 /* Pods-MusiPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 244ACAE053DECD6E034A42441DE14246 /* Pods-MusiPlayer-dummy.m */; };
+		4BBBDD52873061AC9A8355C11FCA5B44 /* YoutubePlayer-in-WKWebView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB88E94AD16FA5748A9827D8CBE4A9E /* YoutubePlayer-in-WKWebView-dummy.m */; };
+		4EA435E0385E273CAE57F8984F533361 /* spotifylogo-32@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F3354ED1381C8F14FAC6B41DCCF977 /* spotifylogo-32@2x.png */; };
+		5419227B9087B80D849F81BDB81E1B55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5BD42A57C5E0B2FB9A50CD69D4327084 /* SessionLocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64990460B645F1A2BAB0D93D4D64752E /* SessionLocalStorage.swift */; };
+		760C6088A78D44576FBEFC7BE5D29D24 /* Scope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5634811474E8784228D505C589827DB7 /* Scope.swift */; };
+		7B8FA437539B67696F939A2F88DFF71D /* SpotifyLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001BCE8A3A97BC7B7DCC3D4894F45E7C /* SpotifyLoginButton.swift */; };
+		7D6E5145ADD4B2E13476D209C28C935F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DA3DA7E026E26057A2A0181B723735 /* Constants.swift */; };
+		803A943F40E9733AC61489FB25186CF9 /* YoutubePlayer-in-WKWebView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DAA7C3B398A85CE72D5EE41BCE20A38 /* YoutubePlayer-in-WKWebView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		999875B9100EBDCFAEBDA20F5DAC8913 /* SpotifyLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8466F50D5F0CAE0EBE69A56A6A52E6 /* SpotifyLogin-dummy.m */; };
+		9AD84D555FE3F3C4519344CBBAB1D565 /* WKYTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E85EDB9B4832F91DF98DC6F5274C6746 /* WKYTPlayerView.m */; };
+		B65D445DBBFC21A569ECCAED7AA1D81B /* SafariDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278B4C863111EC9326B3939F9DD00862 /* SafariDelegate.swift */; };
+		BC7C7E3AD57B45FA4B4C7581512C0802 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CCF11406FC25C84082E70B3DE2871690 /* WKYTPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D7A420446D61C39EB4564BE898AF09 /* WKYTPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA3B99F37D90CDE687A444826D50622 /* spotifylogo-32@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7971DAB5E87A2C004617098CBAA37AC /* spotifylogo-32@3x.png */; };
+		D334D5A0AA88F6DEE11C8667AAE43596 /* WKYTPlayerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 47820463A9B31B5D3B754FD34955E4AF /* WKYTPlayerView.bundle */; };
+		D421A6C52D31905BFD0446659AA1CF6D /* SpotifyLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B8223569B1C150B89C1F4667A3BA02 /* SpotifyLogin.swift */; };
+		F84C432F6010D60D9FEEA7E3AA1D92BB /* SpotifyLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CDB5DD86DD6266A00F5F76A06650481 /* SpotifyLogin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB30A55401B78BE1C682E40A3C4F81DF /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D96241CC6F88143DD04E832FA0DBE1C /* Networking.swift */; };
+		FD993DEADBBBF9B934934C852B28C118 /* spotifylogo-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 20128DF516E0ECB57F90E1A179383862 /* spotifylogo-32.png */; };
+		FF232C4B870FF2F9F0A6EC0ED1F39EDF /* SpotifyLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFEE356C49A7FFF12B12483DA6A06C87 /* SpotifyLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C0FE4328BEB63E903F55832CC72F043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3EF3F58964FDE51A71B36344F566F9B;
+			remoteInfo = SpotifyLogin;
+		};
+		97953D7EE86B7D9FC5BEF1F858358A15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DABE3AD6EBA3822D4F04FBC550E7158D;
+			remoteInfo = "YoutubePlayer-in-WKWebView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001BCE8A3A97BC7B7DCC3D4894F45E7C /* SpotifyLoginButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpotifyLoginButton.swift; path = Sources/SpotifyLoginButton.swift; sourceTree = "<group>"; };
+		11F4CD3E4A45868886317ED0CE83A808 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Sources/Internal/Session.swift; sourceTree = "<group>"; };
+		13D7A420446D61C39EB4564BE898AF09 /* WKYTPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKYTPlayerView.h; path = WKYTPlayerView/WKYTPlayerView.h; sourceTree = "<group>"; };
+		20128DF516E0ECB57F90E1A179383862 /* spotifylogo-32.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "spotifylogo-32.png"; path = "SpotifyLogin/Resources/spotifylogo-32.png"; sourceTree = "<group>"; };
+		244ACAE053DECD6E034A42441DE14246 /* Pods-MusiPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MusiPlayer-dummy.m"; sourceTree = "<group>"; };
+		278B4C863111EC9326B3939F9DD00862 /* SafariDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SafariDelegate.swift; path = Sources/Internal/SafariDelegate.swift; sourceTree = "<group>"; };
+		29EBFAA84248336E6A1B5E6864FEB61D /* Pods-MusiPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MusiPlayer-Info.plist"; sourceTree = "<group>"; };
+		32B8223569B1C150B89C1F4667A3BA02 /* SpotifyLogin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpotifyLogin.swift; path = Sources/SpotifyLogin.swift; sourceTree = "<group>"; };
+		3330BFAB5049D18FC3E11D4C0539DB8F /* Pods_MusiPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusiPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CE606CF40FA4809C826941BC1E302C /* SpotifyLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpotifyLogin.debug.xcconfig; sourceTree = "<group>"; };
+		409698AF94D0CB94ADDF22ED16EC0FF0 /* Pods-MusiPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MusiPlayer-umbrella.h"; sourceTree = "<group>"; };
+		47820463A9B31B5D3B754FD34955E4AF /* WKYTPlayerView.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WKYTPlayerView.bundle; path = WKYTPlayerView/WKYTPlayerView.bundle; sourceTree = "<group>"; };
+		4CDB5DD86DD6266A00F5F76A06650481 /* SpotifyLogin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpotifyLogin.h; path = SpotifyLogin/SpotifyLogin.h; sourceTree = "<group>"; };
+		4F922161C088F5BF886FC322AFCD382D /* Pods-MusiPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusiPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		5634811474E8784228D505C589827DB7 /* Scope.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Scope.swift; path = Sources/Scope.swift; sourceTree = "<group>"; };
+		5E73030EDEE881DB8D38050695E2B7CF /* SpotifyLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpotifyLogin.release.xcconfig; sourceTree = "<group>"; };
+		5F953EFB020E564FE8780AA26079F1A4 /* SpotifyLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpotifyLogin-prefix.pch"; sourceTree = "<group>"; };
+		60F4AF86C8EBA6CCDF5758438A8F1A65 /* YoutubePlayer-in-WKWebView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "YoutubePlayer-in-WKWebView.debug.xcconfig"; sourceTree = "<group>"; };
+		64990460B645F1A2BAB0D93D4D64752E /* SessionLocalStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionLocalStorage.swift; path = Sources/Internal/SessionLocalStorage.swift; sourceTree = "<group>"; };
+		6817CB74FE9C373FFBCBB04FBC552D30 /* YoutubePlayer-in-WKWebView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "YoutubePlayer-in-WKWebView.modulemap"; sourceTree = "<group>"; };
+		6D96241CC6F88143DD04E832FA0DBE1C /* Networking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Networking.swift; path = Sources/Internal/Networking.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7DAA7C3B398A85CE72D5EE41BCE20A38 /* YoutubePlayer-in-WKWebView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YoutubePlayer-in-WKWebView-umbrella.h"; sourceTree = "<group>"; };
+		8B6F3D0B371FD40F77A4BE163DA3BD8A /* YoutubePlayer-in-WKWebView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YoutubePlayer-in-WKWebView-prefix.pch"; sourceTree = "<group>"; };
+		933DEC3C886E4A700950AC6D64C6A104 /* URLBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLBuilder.swift; path = Sources/Internal/URLBuilder.swift; sourceTree = "<group>"; };
+		934D8028C276F936F568EC4690E56F6C /* YoutubePlayer-in-WKWebView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "YoutubePlayer-in-WKWebView.release.xcconfig"; sourceTree = "<group>"; };
+		95F90255F17519BA4400DC49CAC74094 /* YoutubePlayer-in-WKWebView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YoutubePlayer-in-WKWebView-Info.plist"; sourceTree = "<group>"; };
+		9C7304E3AABA893B5689E20BF2D4702B /* Pods-MusiPlayer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MusiPlayer-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A12739981E41003C4003E5C7A3ADDDFC /* Pods-MusiPlayer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MusiPlayer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AC8466F50D5F0CAE0EBE69A56A6A52E6 /* SpotifyLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SpotifyLogin-dummy.m"; sourceTree = "<group>"; };
+		AD753AAE1972ED419A5D349643ADF577 /* Pods-MusiPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusiPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		B14490D0EC263B43DC322C14C1FF559C /* SpotifyLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SpotifyLogin.modulemap; sourceTree = "<group>"; };
+		B380D9BB3B873CD3628E14CED6724DBF /* SpotifyLoginPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpotifyLoginPresenter.swift; path = Sources/SpotifyLoginPresenter.swift; sourceTree = "<group>"; };
+		CDB88E94AD16FA5748A9827D8CBE4A9E /* YoutubePlayer-in-WKWebView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YoutubePlayer-in-WKWebView-dummy.m"; sourceTree = "<group>"; };
+		CFEE356C49A7FFF12B12483DA6A06C87 /* SpotifyLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpotifyLogin-umbrella.h"; sourceTree = "<group>"; };
+		D5DA3DA7E026E26057A2A0181B723735 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Sources/Internal/Constants.swift; sourceTree = "<group>"; };
+		D656786431B07DD91FF2D665242AFAEE /* SpotifyLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SpotifyLogin-Info.plist"; sourceTree = "<group>"; };
+		D7971DAB5E87A2C004617098CBAA37AC /* spotifylogo-32@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "spotifylogo-32@3x.png"; path = "SpotifyLogin/Resources/spotifylogo-32@3x.png"; sourceTree = "<group>"; };
+		DE0FAB1DA724AB86C0E299518F5E580A /* YoutubePlayer_in_WKWebView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YoutubePlayer_in_WKWebView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E85EDB9B4832F91DF98DC6F5274C6746 /* WKYTPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKYTPlayerView.m; path = WKYTPlayerView/WKYTPlayerView.m; sourceTree = "<group>"; };
+		ED35AF6B4989EA930F6FF4E21F6D8359 /* Pods-MusiPlayer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MusiPlayer-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF71156CAC2EAD29ADFFD110DC4F46E1 /* SpotifyLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpotifyLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F3354ED1381C8F14FAC6B41DCCF977 /* spotifylogo-32@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "spotifylogo-32@2x.png"; path = "SpotifyLogin/Resources/spotifylogo-32@2x.png"; sourceTree = "<group>"; };
+		F80B40E1D4F904ED64A97DEC441E2029 /* Pods-MusiPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MusiPlayer.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A4E6A8BDEA2C3D7EED6BBB28556A8EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5419227B9087B80D849F81BDB81E1B55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504E3910DB39163DB89919CDD8ABB13D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CA78BF14F23D0317A8B1A917BADDC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B31952B9520750E964E0A44C07C4B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7C7E3AD57B45FA4B4C7581512C0802 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AE9154640B420BE351AF6C5FF2CCDDB /* Pods-MusiPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F80B40E1D4F904ED64A97DEC441E2029 /* Pods-MusiPlayer.modulemap */,
+				A12739981E41003C4003E5C7A3ADDDFC /* Pods-MusiPlayer-acknowledgements.markdown */,
+				ED35AF6B4989EA930F6FF4E21F6D8359 /* Pods-MusiPlayer-acknowledgements.plist */,
+				244ACAE053DECD6E034A42441DE14246 /* Pods-MusiPlayer-dummy.m */,
+				9C7304E3AABA893B5689E20BF2D4702B /* Pods-MusiPlayer-frameworks.sh */,
+				29EBFAA84248336E6A1B5E6864FEB61D /* Pods-MusiPlayer-Info.plist */,
+				409698AF94D0CB94ADDF22ED16EC0FF0 /* Pods-MusiPlayer-umbrella.h */,
+				4F922161C088F5BF886FC322AFCD382D /* Pods-MusiPlayer.debug.xcconfig */,
+				AD753AAE1972ED419A5D349643ADF577 /* Pods-MusiPlayer.release.xcconfig */,
+			);
+			name = "Pods-MusiPlayer";
+			path = "Target Support Files/Pods-MusiPlayer";
+			sourceTree = "<group>";
+		};
+		44B3064736FFD86EACE5383B35492DDC /* YoutubePlayer-in-WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				13D7A420446D61C39EB4564BE898AF09 /* WKYTPlayerView.h */,
+				E85EDB9B4832F91DF98DC6F5274C6746 /* WKYTPlayerView.m */,
+				65679DADA35879B12C159D386C38A0D2 /* Resources */,
+				BC0FCC44F255B6E8F9B9B0D98463BC80 /* Support Files */,
+			);
+			path = "YoutubePlayer-in-WKWebView";
+			sourceTree = "<group>";
+		};
+		53304958FF1E9B1ED4016645AD78936E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CD148E69B33C8C5C671E5A722D00E0A /* SpotifyLogin */,
+				44B3064736FFD86EACE5383B35492DDC /* YoutubePlayer-in-WKWebView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		65679DADA35879B12C159D386C38A0D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				47820463A9B31B5D3B754FD34955E4AF /* WKYTPlayerView.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6CD148E69B33C8C5C671E5A722D00E0A /* SpotifyLogin */ = {
+			isa = PBXGroup;
+			children = (
+				D5DA3DA7E026E26057A2A0181B723735 /* Constants.swift */,
+				6D96241CC6F88143DD04E832FA0DBE1C /* Networking.swift */,
+				278B4C863111EC9326B3939F9DD00862 /* SafariDelegate.swift */,
+				5634811474E8784228D505C589827DB7 /* Scope.swift */,
+				11F4CD3E4A45868886317ED0CE83A808 /* Session.swift */,
+				64990460B645F1A2BAB0D93D4D64752E /* SessionLocalStorage.swift */,
+				4CDB5DD86DD6266A00F5F76A06650481 /* SpotifyLogin.h */,
+				32B8223569B1C150B89C1F4667A3BA02 /* SpotifyLogin.swift */,
+				001BCE8A3A97BC7B7DCC3D4894F45E7C /* SpotifyLoginButton.swift */,
+				B380D9BB3B873CD3628E14CED6724DBF /* SpotifyLoginPresenter.swift */,
+				933DEC3C886E4A700950AC6D64C6A104 /* URLBuilder.swift */,
+				C37661279C20879E4AA2432A9007AEC4 /* Resources */,
+				C7E43E2E9B7EB981ABDB8DFCBBE7A82B /* Support Files */,
+			);
+			path = SpotifyLogin;
+			sourceTree = "<group>";
+		};
+		766B56C8D3E20561AC8582EEF088E4D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3330BFAB5049D18FC3E11D4C0539DB8F /* Pods_MusiPlayer.framework */,
+				EF71156CAC2EAD29ADFFD110DC4F46E1 /* SpotifyLogin.framework */,
+				DE0FAB1DA724AB86C0E299518F5E580A /* YoutubePlayer_in_WKWebView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC0FCC44F255B6E8F9B9B0D98463BC80 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6817CB74FE9C373FFBCBB04FBC552D30 /* YoutubePlayer-in-WKWebView.modulemap */,
+				CDB88E94AD16FA5748A9827D8CBE4A9E /* YoutubePlayer-in-WKWebView-dummy.m */,
+				95F90255F17519BA4400DC49CAC74094 /* YoutubePlayer-in-WKWebView-Info.plist */,
+				8B6F3D0B371FD40F77A4BE163DA3BD8A /* YoutubePlayer-in-WKWebView-prefix.pch */,
+				7DAA7C3B398A85CE72D5EE41BCE20A38 /* YoutubePlayer-in-WKWebView-umbrella.h */,
+				60F4AF86C8EBA6CCDF5758438A8F1A65 /* YoutubePlayer-in-WKWebView.debug.xcconfig */,
+				934D8028C276F936F568EC4690E56F6C /* YoutubePlayer-in-WKWebView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YoutubePlayer-in-WKWebView";
+			sourceTree = "<group>";
+		};
+		BF34FDE7FE5E1922B4DBB94EAA1A5A95 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AE9154640B420BE351AF6C5FF2CCDDB /* Pods-MusiPlayer */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C37661279C20879E4AA2432A9007AEC4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				20128DF516E0ECB57F90E1A179383862 /* spotifylogo-32.png */,
+				F4F3354ED1381C8F14FAC6B41DCCF977 /* spotifylogo-32@2x.png */,
+				D7971DAB5E87A2C004617098CBAA37AC /* spotifylogo-32@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C7E43E2E9B7EB981ABDB8DFCBBE7A82B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B14490D0EC263B43DC322C14C1FF559C /* SpotifyLogin.modulemap */,
+				AC8466F50D5F0CAE0EBE69A56A6A52E6 /* SpotifyLogin-dummy.m */,
+				D656786431B07DD91FF2D665242AFAEE /* SpotifyLogin-Info.plist */,
+				5F953EFB020E564FE8780AA26079F1A4 /* SpotifyLogin-prefix.pch */,
+				CFEE356C49A7FFF12B12483DA6A06C87 /* SpotifyLogin-umbrella.h */,
+				33CE606CF40FA4809C826941BC1E302C /* SpotifyLogin.debug.xcconfig */,
+				5E73030EDEE881DB8D38050695E2B7CF /* SpotifyLogin.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SpotifyLogin";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				53304958FF1E9B1ED4016645AD78936E /* Pods */,
+				766B56C8D3E20561AC8582EEF088E4D6 /* Products */,
+				BF34FDE7FE5E1922B4DBB94EAA1A5A95 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17828FFF5E257528483A782A6C37CA18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF11406FC25C84082E70B3DE2871690 /* WKYTPlayerView.h in Headers */,
+				803A943F40E9733AC61489FB25186CF9 /* YoutubePlayer-in-WKWebView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19491DDCBE1DE9F00A209912060ACF27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF232C4B870FF2F9F0A6EC0ED1F39EDF /* SpotifyLogin-umbrella.h in Headers */,
+				F84C432F6010D60D9FEEA7E3AA1D92BB /* SpotifyLogin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF18D4C1988597F736C323F49BD58071 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D612E2527CCAFB1EBEABAACE7AEC7D /* Pods-MusiPlayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		296D28801AE0456193B108526B0ED1D2 /* Pods-MusiPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE860627FFE515271708CC6B4F64DA30 /* Build configuration list for PBXNativeTarget "Pods-MusiPlayer" */;
+			buildPhases = (
+				DF18D4C1988597F736C323F49BD58071 /* Headers */,
+				5C6CA539D94357D8C5ED6759EEA5349B /* Sources */,
+				504E3910DB39163DB89919CDD8ABB13D /* Frameworks */,
+				5EE26C1D9043893B9A7F5F8C1BEADC72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0631DE71D4BB19C3E6A025B957DD8A51 /* PBXTargetDependency */,
+				084C4C947D50C25B118406BA6F9D9D9F /* PBXTargetDependency */,
+			);
+			name = "Pods-MusiPlayer";
+			productName = "Pods-MusiPlayer";
+			productReference = 3330BFAB5049D18FC3E11D4C0539DB8F /* Pods_MusiPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3EF3F58964FDE51A71B36344F566F9B /* SpotifyLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38B630A7187E461BD8B75EE1B30D78F9 /* Build configuration list for PBXNativeTarget "SpotifyLogin" */;
+			buildPhases = (
+				19491DDCBE1DE9F00A209912060ACF27 /* Headers */,
+				A78484DA5273CC1434B7A466998E9E1E /* Sources */,
+				1A4E6A8BDEA2C3D7EED6BBB28556A8EB /* Frameworks */,
+				4FDB36D5CAB36845CEC579F3BC326F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpotifyLogin;
+			productName = SpotifyLogin;
+			productReference = EF71156CAC2EAD29ADFFD110DC4F46E1 /* SpotifyLogin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DABE3AD6EBA3822D4F04FBC550E7158D /* YoutubePlayer-in-WKWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047221B88B466188D7B28CF17DB79C8D /* Build configuration list for PBXNativeTarget "YoutubePlayer-in-WKWebView" */;
+			buildPhases = (
+				17828FFF5E257528483A782A6C37CA18 /* Headers */,
+				DC2087E01AAFD2B9411B8C3022709F9A /* Sources */,
+				83B31952B9520750E964E0A44C07C4B5 /* Frameworks */,
+				8175522B524A37D3936801F6C2DE743F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YoutubePlayer-in-WKWebView";
+			productName = "YoutubePlayer-in-WKWebView";
+			productReference = DE0FAB1DA724AB86C0E299518F5E580A /* YoutubePlayer_in_WKWebView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 766B56C8D3E20561AC8582EEF088E4D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				296D28801AE0456193B108526B0ED1D2 /* Pods-MusiPlayer */,
+				C3EF3F58964FDE51A71B36344F566F9B /* SpotifyLogin */,
+				DABE3AD6EBA3822D4F04FBC550E7158D /* YoutubePlayer-in-WKWebView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FDB36D5CAB36845CEC579F3BC326F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD993DEADBBBF9B934934C852B28C118 /* spotifylogo-32.png in Resources */,
+				4EA435E0385E273CAE57F8984F533361 /* spotifylogo-32@2x.png in Resources */,
+				CDA3B99F37D90CDE687A444826D50622 /* spotifylogo-32@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE26C1D9043893B9A7F5F8C1BEADC72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8175522B524A37D3936801F6C2DE743F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D334D5A0AA88F6DEE11C8667AAE43596 /* WKYTPlayerView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C6CA539D94357D8C5ED6759EEA5349B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438690A1756AF59B38ED63C6E319D667 /* Pods-MusiPlayer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78484DA5273CC1434B7A466998E9E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6E5145ADD4B2E13476D209C28C935F /* Constants.swift in Sources */,
+				FB30A55401B78BE1C682E40A3C4F81DF /* Networking.swift in Sources */,
+				B65D445DBBFC21A569ECCAED7AA1D81B /* SafariDelegate.swift in Sources */,
+				760C6088A78D44576FBEFC7BE5D29D24 /* Scope.swift in Sources */,
+				3CF4CDBA30FDEFE44484F65ECB765B6A /* Session.swift in Sources */,
+				5BD42A57C5E0B2FB9A50CD69D4327084 /* SessionLocalStorage.swift in Sources */,
+				999875B9100EBDCFAEBDA20F5DAC8913 /* SpotifyLogin-dummy.m in Sources */,
+				D421A6C52D31905BFD0446659AA1CF6D /* SpotifyLogin.swift in Sources */,
+				7B8FA437539B67696F939A2F88DFF71D /* SpotifyLoginButton.swift in Sources */,
+				436455B287A50944F60BAB699E02C75D /* SpotifyLoginPresenter.swift in Sources */,
+				02AEED865D2144E99A2ED4AFEFBDD0EB /* URLBuilder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2087E01AAFD2B9411B8C3022709F9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD84D555FE3F3C4519344CBBAB1D565 /* WKYTPlayerView.m in Sources */,
+				4BBBDD52873061AC9A8355C11FCA5B44 /* YoutubePlayer-in-WKWebView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0631DE71D4BB19C3E6A025B957DD8A51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SpotifyLogin;
+			target = C3EF3F58964FDE51A71B36344F566F9B /* SpotifyLogin */;
+			targetProxy = 1C0FE4328BEB63E903F55832CC72F043 /* PBXContainerItemProxy */;
+		};
+		084C4C947D50C25B118406BA6F9D9D9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "YoutubePlayer-in-WKWebView";
+			target = DABE3AD6EBA3822D4F04FBC550E7158D /* YoutubePlayer-in-WKWebView */;
+			targetProxy = 97953D7EE86B7D9FC5BEF1F858358A15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2921FEF8701484EFF8746EBF741DAC15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 934D8028C276F936F568EC4690E56F6C /* YoutubePlayer-in-WKWebView.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YoutubePlayer-in-WKWebView/YoutubePlayer-in-WKWebView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YoutubePlayer-in-WKWebView/YoutubePlayer-in-WKWebView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YoutubePlayer-in-WKWebView/YoutubePlayer-in-WKWebView.modulemap";
+				PRODUCT_MODULE_NAME = YoutubePlayer_in_WKWebView;
+				PRODUCT_NAME = YoutubePlayer_in_WKWebView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63B1B52FAC976B5FB80E17132501CD50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33CE606CF40FA4809C826941BC1E302C /* SpotifyLogin.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SpotifyLogin/SpotifyLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpotifyLogin/SpotifyLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SpotifyLogin/SpotifyLogin.modulemap";
+				PRODUCT_MODULE_NAME = SpotifyLogin;
+				PRODUCT_NAME = SpotifyLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6787B914CBBD0DA3D686408CCEFB9D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F922161C088F5BF886FC322AFCD382D /* Pods-MusiPlayer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MusiPlayer/Pods-MusiPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MusiPlayer/Pods-MusiPlayer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C9EF6135C060C0A16980B9139EFAB62F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60F4AF86C8EBA6CCDF5758438A8F1A65 /* YoutubePlayer-in-WKWebView.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YoutubePlayer-in-WKWebView/YoutubePlayer-in-WKWebView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YoutubePlayer-in-WKWebView/YoutubePlayer-in-WKWebView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YoutubePlayer-in-WKWebView/YoutubePlayer-in-WKWebView.modulemap";
+				PRODUCT_MODULE_NAME = YoutubePlayer_in_WKWebView;
+				PRODUCT_NAME = YoutubePlayer_in_WKWebView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E09763B4A43CF7ED04A7A772FC6ACAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD753AAE1972ED419A5D349643ADF577 /* Pods-MusiPlayer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MusiPlayer/Pods-MusiPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MusiPlayer/Pods-MusiPlayer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD795BE65FAF292C05B0C3B1E92A8D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E73030EDEE881DB8D38050695E2B7CF /* SpotifyLogin.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SpotifyLogin/SpotifyLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpotifyLogin/SpotifyLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SpotifyLogin/SpotifyLogin.modulemap";
+				PRODUCT_MODULE_NAME = SpotifyLogin;
+				PRODUCT_NAME = SpotifyLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047221B88B466188D7B28CF17DB79C8D /* Build configuration list for PBXNativeTarget "YoutubePlayer-in-WKWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9EF6135C060C0A16980B9139EFAB62F /* Debug */,
+				2921FEF8701484EFF8746EBF741DAC15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38B630A7187E461BD8B75EE1B30D78F9 /* Build configuration list for PBXNativeTarget "SpotifyLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B1B52FAC976B5FB80E17132501CD50 /* Debug */,
+				FD795BE65FAF292C05B0C3B1E92A8D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE860627FFE515271708CC6B4F64DA30 /* Build configuration list for PBXNativeTarget "Pods-MusiPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6787B914CBBD0DA3D686408CCEFB9D32 /* Debug */,
+				E09763B4A43CF7ED04A7A772FC6ACAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,20 @@
+PODS:
+  - SpotifyLogin (0.1.6)
+  - YoutubePlayer-in-WKWebView (0.3.5)
+
+DEPENDENCIES:
+  - SpotifyLogin (~> 0.1)
+  - YoutubePlayer-in-WKWebView (~> 0.3.0)
+
+SPEC REPOS:
+  trunk:
+    - SpotifyLogin
+    - YoutubePlayer-in-WKWebView
+
+SPEC CHECKSUMS:
+  SpotifyLogin: 9cdf82ff13e5f37e5ddc7fd07cf9793a9ebd1124
+  YoutubePlayer-in-WKWebView: cfbf46da51d7370662a695a8f351e5fa1d3e1008
+
+PODFILE CHECKSUM: 7841f060f4296cb0abd67684570dcc9ce44e2a4a
+
+COCOAPODS: 1.10.1

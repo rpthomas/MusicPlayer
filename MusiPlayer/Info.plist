@@ -2,16 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSAppleMusicUsageDescription</key>
-	<string>Play music from iTunes</string>
-	<key>kTCCServiceMediaLibrary</key>
-	<string>Play music from iTunes</string>
-	<key>LSApplicationQueriesSchemes</key>
-	<string>spotify</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Jedisware&apos;s Multi-Media Player</string>
+	<string>Jedisware's Multi-Media Player</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -23,12 +17,35 @@
 	<key>CFBundlePackageType</key>
 	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.Jedisware.MusiPlayer-New1</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>Jedisware-Musi-Player</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.906287499950-8ukqkus1p13u0064gmut5jkaiatljvsr</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSApplicationCategoryType</key>
 	<string></string>
+	<key>LSApplicationQueriesSchemes</key>
+	<string>spotify</string>
 	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
@@ -46,12 +63,14 @@
 			<dict/>
 		</dict>
 	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>This app would like to access your Media Library so that you may play music from iTunes and Apple Music. You may also download and add items to iTunes and Apple Music.</string>
 	<key>NSCameraUsageDescription</key>
-	<string>This app wants to use pictures and Videos.</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>This app wants to use your photos and videos.</string>
+	<string>This app would like to access your camera so that you may take photos and share those images via email or text. </string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>This App will add photos and videos</string>
+	<string>This app would like to access your photo library so that you may add photos or videos to the library. </string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app would like to access your photo library so that you may view the photos and videos, and share those items via email or text. </string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -71,18 +90,9 @@
 			</array>
 		</dict>
 	</dict>
-	<key>CFBundleURLTypes</key>
-	<array>
-		<dict>
-			<key>CFBundleURLName</key>
-			<string>com.spotify.iOS-SDK-Quick-Start</string>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>spotify-ios-quick-start</string>
-			</array>
-		</dict>
-	</array>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UIFileSharingEnabled</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
@@ -105,5 +115,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>kTCCServiceMediaLibrary</key>
+	<string>Play music from iTunes and Apple Music</string>
 </dict>
 </plist>

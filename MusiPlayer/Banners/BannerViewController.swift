@@ -30,13 +30,11 @@ class BannerViewController: UIViewController {
 
         let centeredView = UIView(frame: CGRect(x: Int(xCoord), y: yCoord, width: Int(self.view.bounds.width) - 100 , height: 50))
             centeredView.backgroundColor = UIColor(red: 0.8389534697, green: 0.9051236194, blue: 1, alpha: 1)
-        let shadowPath = UIBezierPath(rect: centeredView.bounds)
         centeredView.layer.masksToBounds = false
         centeredView.layer.cornerRadius = 5
         centeredView.layer.shadowColor = UIColor.black.cgColor
         centeredView.layer.shadowOffset = CGSize(width: 10.0, height: 10.0)
         centeredView.layer.shadowOpacity = 0.5
-        centeredView.layer.shadowPath = shadowPath.cgPath
         centeredView.layer.shadowRadius = 5
         centeredView.layer.borderColor = UIColor.black.cgColor
         centeredView.layer.borderWidth = 1
